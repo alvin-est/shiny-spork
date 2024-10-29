@@ -22,7 +22,7 @@ To use the app, press get started. Fill out the title and text and press the sav
 ## License
       This project is licensed under the MIT license.
 ## Contributors
-- [@alvin-est](https://github.com/@alvin-est)
+- @[alvin-est](https://github.com/@alvin-est)
 - The Coding Bootcamp at USYD [(source repo)](https://github.com/coding-boot-camp/miniature-eureka)
 ## Tests
 N/A
