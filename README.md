@@ -13,14 +13,14 @@ A simple note-taking app with a locally hosted JSON file serving as the database
 ## Installation
 This application uses the NodeJS environment. Firstly make sure to have this set up on your local workstation or remote server.  
 1. Clone the repo
-2. Navigate to the folder via Terminal/Command-Line
+2. Navigate to the 'app' folder via Terminal/Command-Line
 3. Run the commands "npm i" and "node server"
 4. Go to your browser and load the webpage.
 
 The link should be provided in your console.
 ## Usage
 To use the app, press get started. Fill out the title and text and press the save button.  
-The application is deployed live [on Render](https://github.com/@alvin-est).
+The application is deployed live [on Render](https://note-taker-h5y5.onrender.com/).
 ## Screenshot
 ![App Screenshot](misc/screenshot.png "A screenshot of Note Taker in action!")
 ## License
