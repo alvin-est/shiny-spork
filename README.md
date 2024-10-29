@@ -1,7 +1,7 @@
 # Note Taker
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-Nothing yet.
+A simple note-taking app with a locally hosted JSON file serving as the database.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,15 +10,21 @@ Nothing yet.
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-Nothing yet.
+This application uses the NodeJS environment. Firstly make sure to have this set up on your local workstation or remote server.  
+1. Clone the repo
+2. Navigate to the folder via Terminal/Command-Line
+3. Run the commands "npm i" and "node server"
+4. Go to your browser and load the webpage.
+
+The link should be provided in your console.
 ## Usage
-Nothing yet.
+To use the app, press get started. Fill out the title and text and press the save button.
 ## License
       This project is licensed under the MIT license.
 ## Contributors
 - Alvin
 - The Coding Bootcamp at USYD [(source repo)](https://github.com/coding-boot-camp/miniature-eureka)
 ## Tests
-Nothing yet.
+N/A
 ## Questions
 If you have any questions, please contact me at [contact@alvin-the.dev](mailto:contact@alvin-the.dev). You can also find me on GitHub at [@alvin-est](https://github.com/@alvin-est).  

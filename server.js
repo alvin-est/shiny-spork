@@ -7,19 +7,23 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Middleware for serving static files
+app.use(express.static('views'));
+
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Middleware for serving static files
-app.use(express.static('public'));
-
 // Import and mount routes
-const htmlRoutes = require('./routes/htmlRoutes');
 const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
-app.use('/', htmlRoutes);
 app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
+app.get('*', (req, res) => {
+    // Catch-all route to handle user requests to an unknown route
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+});
 
 // Start the server
 app.listen(PORT, () => {

@@ -1,3 +1,4 @@
+// alert('Hello World!');
 let noteForm;
 let noteTitle;
 let noteText;
